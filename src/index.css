@@ -12,6 +12,20 @@ html {
   overflow-x: hidden;
   overflow-y: auto;
 }
+.to-black {
+  --tw-gradient-to: #000000 var(--tw-gradient-to-position) !important;
+}
+.via-gray-900 {
+  --tw-gradient-to: rgb(17 24 39 / 0) var(--tw-gradient-to-position) !important;
+  --tw-gradient-stops: var(--tw-gradient-from),
+    #111827 var(--tw-gradient-via-position), var(--tw-gradient-to) !important;
+}
+
+.from-gray-700 {
+  --tw-gradient-from: #374151 var(--tw-gradient-from-position) !important;
+  --tw-gradient-to: rgb(55 65 81 / 0) var(--tw-gradient-to-position) !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to) !important;
+}
 
 body {
   overflow-x: hidden;
@@ -19,7 +33,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 .container-bg {
-  background: linear-gradient(#000000, #374151);
+  background: radial-gradient(#374151, #000000);
 }
 .image-container {
   position: relative;

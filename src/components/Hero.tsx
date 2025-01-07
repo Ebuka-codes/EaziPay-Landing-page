@@ -8,8 +8,8 @@ const Hero = () => {
     <section data-aos="fade-up">
       <div className="mx-auto">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-6 gap-y-10 items-center">
-          <div className="mt-[100px] ml:mt-[40px] container ml:ml-[70px]  lg:mb-40">
-            <h1 className="text-[27px] md:text-5xl/tight  lg:text-[4.17vw] text-white tracking-normal capitalize leading-normal font-bold max-w-2xl mt-4">
+          <div className="mt-[100px] ml:mt-[40px] container ml:ml-[50px]  lg:mb-40">
+            <h1 className="text-[27px] md:text-5xl/tight ml-1  lg:text-[4.17vw] text-white tracking-normal capitalize leading-normal font-bold max-w-2xl mt-4">
               Bank Smarter, Live Better with eaziPay
               <span className="text-[#7c4fe0] ml-1">Banking</span>
             </h1>
@@ -31,7 +31,7 @@ const Hero = () => {
               />
             </span>
           </div>
-          <div className="relative lg:mt-[100px] ml:mt-[40px] mb-10 lg:mb-10">
+          <div className="relative lg:mt-[100px] ml:mt-[40px] mb-20 lg:mb-20">
             <img
               src="/image/Digital-Wallet-qgq768fa8mvydoqsuku9cs89p6be2q20tlpsvzh2cs.png"
               alt="appImage"
