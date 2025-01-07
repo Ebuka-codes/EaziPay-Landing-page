@@ -32,6 +32,12 @@ body {
   overflow-y: hidden;
   font-family: 'Roboto', serif;
 }
+h2 {
+  margin: 1.1rem 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
 .container-bg {
   background: radial-gradient(#374151, #000000);
 }
@@ -101,12 +107,7 @@ body {
 .fst-italic {
   font-style: italic !important;
 }
-h2 {
-  margin: 1.5rem 0;
-  font-size: 2.5rem;
-  font-weight: 600;
-  line-height: 1.2;
-}
+
 .intro .title:not(.layout-2)::after {
   position: absolute;
   content: '';

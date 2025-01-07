@@ -19,6 +19,7 @@ const HomePage = () => {
     if (targetRef.current) {
       targetRef.current.scrollIntoView({ behavior: 'smooth' });
       setShowBtn(false);
+      window.scrollTo({ top: 0 });
     }
   };
   const handleWindowScroll = () => {

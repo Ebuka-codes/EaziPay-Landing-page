@@ -13,7 +13,7 @@ const Content = ({ targetRef }: contentType) => {
       {/* mobile-view */}
       <div className=" mt-20 ml-5 ml:hidden block py-10" data-aos="fade-left">
         <h1 className="ml:text-[40px] text-[35px] leading-[43px] font-semibold mb-10 ml:leading-[49px]">
-          Smart and secure mobile banking
+          Smart and secure way to bank
         </h1>
         <ul className="space-y-7 text-stone-500 text-[1rem]">
           <li className="flex items-center gap-3">
@@ -32,7 +32,7 @@ const Content = ({ targetRef }: contentType) => {
               />
             </svg>
 
-            <p>
+            <p className="w-[80%] ml:w-full">
               Utilize integrated messaging features to ensure seamless
               communication with our customer care
             </p>
@@ -52,7 +52,7 @@ const Content = ({ targetRef }: contentType) => {
                 d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
               />
             </svg>
-            <p>
+            <p className="w-[80%] ml:w-full">
               Access all your accounts in one place for full control of your
               finances
             </p>
@@ -73,7 +73,7 @@ const Content = ({ targetRef }: contentType) => {
               />
             </svg>
 
-            <p>
+            <p className="w-[80%] ml:w-full">
               Seamless integration with payment platforms and investment options
               to help you achieve financial goals faster
             </p>
@@ -93,7 +93,7 @@ const Content = ({ targetRef }: contentType) => {
                 d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
               />
             </svg>
-            <p>
+            <p className="w-[80%] ml:w-full">
               Enjoy peace of mind with state-of-the-art security, including
               biometric login and real-time fraud alerts.
             </p>
@@ -113,7 +113,7 @@ const Content = ({ targetRef }: contentType) => {
                 d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
               />
             </svg>
-            <p>
+            <p className="w-[80%] ml:w-full">
               Manage multiple accounts, including checking, savings, and credit
               cards, in one place.
             </p>

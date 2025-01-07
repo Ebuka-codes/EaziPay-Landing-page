@@ -26,7 +26,7 @@ const Footer = () => {
           </ul>
 
           <p className="text-base  text-white text-center sm:text-left">
-            {new Date().getFullYear()}© EasyPay - All right reserverd.{' '}
+            {new Date().getFullYear()}© RapidPay - All right reserverd.{' '}
           </p>
 
           <ul className="justify-center cursor-pointer gap-3 hidden sm:flex">

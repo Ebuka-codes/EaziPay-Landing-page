@@ -31,11 +31,11 @@ const Hero = () => {
               />
             </span>
           </div>
-          <div className="relative lg:mt-[100px] ml:mt-[40px] mb-20 lg:mb-20">
+          <div className="relative lg:mt-[100px] ml:mt-[40px]  lg:mb-20">
             <img
-              src="/image/Digital-Wallet-qgq768fa8mvydoqsuku9cs89p6be2q20tlpsvzh2cs.png"
+              src="/image/b25eb8676691cf388558882913e14d97-removebg-preview.png"
               alt="appImage"
-              className="md:h-[600px] max-w-full mx-auto"
+              className="md:h-[600px]  max-w-full mx-auto"
             />
           </div>
         </div>

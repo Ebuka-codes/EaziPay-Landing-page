@@ -21,7 +21,7 @@ const About = () => {
       </span>
       <div className="text-center intro relative">
         <h2 className="title text-[2rem] lg:text-[2.5rem] tracking-[1px]">
-          Stories From Our Customers
+          Shaping the Future of Finance
         </h2>
       </div>
 

@@ -8,9 +8,9 @@ const Header = () => {
       {/* mobile-view */}
       <header
         id="home"
-        className="fixed w-full z-[1000] shadow-sm py-[10px] bg-white ml:hidden"
+        className="w-full z-[1000] shadow-md py-[15px] bg-white ml:hidden fixed"
       >
-        <div className="flex justify-between items-center mx-3  sm:mx-20 ">
+        <div className="flex justify-between items-center mx-3 sm:mx-20 ">
           <Link
             to="/"
             className="font-bold text-[24px] tracking-wider text-[#7c4fe0]"
@@ -43,10 +43,11 @@ const Header = () => {
             )}
           </span>
         </div>
-
-        {isOpen && (
-          <nav className="mt-2 ml-6">
-            <ul className="py-2 space-y-4 text-[13px] font-medium text-stone-700">
+      </header>
+      {isOpen && (
+        <div className="bg-white py-3 transition-all duration-300 basis-full shadow-sm grow fixed w-full z-[20000] top-14 navigation hs-collapse">
+          <nav className="px-3">
+            <ul className="py-2 space-y-5 text-[13px] font-medium text-stone-700">
               <li className="hover:text-blue-500 text-[#7c4fe0] transition duration-300 ease-in-out">
                 <Link
                   to={'/'}
@@ -106,8 +107,8 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-        )}
-      </header>
+        </div>
+      )}
 
       {/* destop-view */}
       <header className="hidden justify-between ml:items-center items-center gap-5 container py-4 overflow-y-hidden  ml:flex">
