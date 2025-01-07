@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+.container-bg {
+  background: linear-gradient(#000000, #374151);
+}
+.image-container {
+  position: relative;
+  width: 100%;
+}
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(16, 16, 45, 0.7);
+  opacity: 0.94;
+  z-index: 1;
+}
+/* .content {
+  position: absolute;
+  top: 20%;
+  color: white;
+  text-align: center;
+  z-index: 2;
+} */
+
+.download-area {
+  /* position: relative; */
+  background-image: url(../image/download-bg.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.has-overlay {
+  position: relative;
+  z-index: 1;
+}
+.has-overlay.overlay-dark::after {
+  background: rgba(16, 16, 45, 0.9);
+}
+.has-overlay::after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.94;
+  z-index: -1;
+}
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 30px;
+}
+.download-button img {
+  max-width: 190px;
+}
+
+.content {
+  margin-top: 10px;
+}
+
+.fw-light {
+  font-weight: 300 !important;
+}
+.fst-italic {
+  font-style: italic !important;
+}
+h2 {
+  margin: 1.5rem 0;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.intro .title:not(.layout-2)::after {
+  position: absolute;
+  content: '';
+  height: 3px;
+  width: 50px;
+  background-color: var(--primary-color);
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.scroll_btn {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #6045c5;
+  border-radius: 50%;
+  border: none;
+  bottom: 15px;
+  cursor: pointer;
+  display: flex;
+  height: 45px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: fixed;
+  right: 10px;
+  width: 45px;
+}
+@media (max-width: 991px) {
+  h2 {
+    font-size: 2rem !important;
+  }
+}
