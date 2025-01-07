@@ -68,8 +68,6 @@ A modern, secure, and user-friendly mobile banking application that simplifies f
 
 ## Screenshots
 
-_Add some screenshots of your app here for better visibility. Use the following format:_
-
 ![Home Screen](./public/image/home-bg.PNG)
 _Description: The app's home screen showing account balances and recent transactions._
 
