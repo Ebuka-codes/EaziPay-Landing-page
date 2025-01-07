@@ -33,8 +33,28 @@ const Content = ({ targetRef }: contentType) => {
             </svg>
 
             <p>
-              tilize integrated messaging features to ensure seamless
-              communication with clients at any time.
+              Utilize integrated messaging features to ensure seamless
+              communication with our customer care
+            </p>
+          </li>
+          <li className="flex items-center gap-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="size-7 flex-shrink-0 text-[#6045c5]"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
+              />
+            </svg>
+            <p>
+              Access all your accounts in one place for full control of your
+              finances
             </p>
           </li>
           <li className="flex items-center gap-3">
@@ -54,8 +74,8 @@ const Content = ({ targetRef }: contentType) => {
             </svg>
 
             <p>
-              tilize integrated messaging features to ensure seamless
-              communication with clients at any time.
+              Seamless integration with payment platforms and investment options
+              to help you achieve financial goals faster
             </p>
           </li>
           <li className="flex items-center gap-3">
@@ -73,10 +93,9 @@ const Content = ({ targetRef }: contentType) => {
                 d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
               />
             </svg>
-
             <p>
-              tilize integrated messaging features to ensure seamless
-              communication with clients at any time.
+              Enjoy peace of mind with state-of-the-art security, including
+              biometric login and real-time fraud alerts.
             </p>
           </li>
           <li className="flex items-center gap-3">
@@ -94,10 +113,9 @@ const Content = ({ targetRef }: contentType) => {
                 d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
               />
             </svg>
-
             <p>
-              tilize integrated messaging features to ensure seamless
-              communication with clients at any time.
+              Manage multiple accounts, including checking, savings, and credit
+              cards, in one place.
             </p>
           </li>
         </ul>
@@ -129,7 +147,7 @@ const Content = ({ targetRef }: contentType) => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="size-12 text-[#6045c5]"
+                  className="size-7  flex-shrink-0 text-[#6045c5]"
                 >
                   <path
                     strokeLinecap="round"
@@ -139,8 +157,8 @@ const Content = ({ targetRef }: contentType) => {
                 </svg>
 
                 <p>
-                  tilize integrated messaging features to ensure seamless
-                  communication with clients at any time.
+                  Utilize integrated messaging features to ensure seamless
+                  communication with our customer care
                 </p>
               </li>
               <li className="flex items-center gap-3">
@@ -150,7 +168,7 @@ const Content = ({ targetRef }: contentType) => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="size-12 text-[#6045c5]"
+                  className="size-7 flex-shrink-0 text-[#6045c5]"
                 >
                   <path
                     strokeLinecap="round"
@@ -158,10 +176,9 @@ const Content = ({ targetRef }: contentType) => {
                     d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
                   />
                 </svg>
-
                 <p>
-                  tilize integrated messaging features to ensure seamless
-                  communication with clients at any time.
+                  Access all your accounts in one place for full control of your
+                  finances
                 </p>
               </li>
               <li className="flex items-center gap-3">
@@ -171,7 +188,7 @@ const Content = ({ targetRef }: contentType) => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="size-12 text-[#6045c5]"
+                  className="size-7 flex-shrink-0 text-[#6045c5]"
                 >
                   <path
                     strokeLinecap="round"
@@ -181,8 +198,8 @@ const Content = ({ targetRef }: contentType) => {
                 </svg>
 
                 <p>
-                  tilize integrated messaging features to ensure seamless
-                  communication with clients at any time.
+                  Seamless integration with payment platforms and investment
+                  options to help you achieve financial goals faster
                 </p>
               </li>
               <li className="flex items-center gap-3">
@@ -192,7 +209,7 @@ const Content = ({ targetRef }: contentType) => {
                   viewBox="0 0 24 24"
                   strokeWidth={1.5}
                   stroke="currentColor"
-                  className="size-12 text-[#6045c5]"
+                  className="size-7 flex-shrink-0 text-[#6045c5]"
                 >
                   <path
                     strokeLinecap="round"
@@ -200,10 +217,30 @@ const Content = ({ targetRef }: contentType) => {
                     d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
                   />
                 </svg>
-
                 <p>
-                  tilize integrated messaging features to ensure seamless
-                  communication with clients at any time.
+                  Enjoy peace of mind with state-of-the-art security, including
+                  biometric login and real-time fraud alerts.
+                </p>
+              </li>
+
+              <li className="flex items-center gap-3">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="size-7 flex-shrink-0 text-[#6045c5]"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z"
+                  />
+                </svg>
+                <p>
+                  Manage multiple accounts, including checking, savings, and
+                  credit cards, in one place.
                 </p>
               </li>
             </ul>

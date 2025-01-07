@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
+import { FaTimes } from 'react-icons/fa';
 const Header = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
@@ -9,40 +10,44 @@ const Header = () => {
         id="home"
         className="fixed w-full z-[1000] shadow-sm py-[10px] bg-white ml:hidden"
       >
-        <div className="flex justify-between items-center mx-4  sm:mx-20 ">
+        <div className="flex justify-between items-center mx-3  sm:mx-20 ">
           <Link
             to="/"
-            className="font-bold text-[24px] tracking-wider text-[#6045c5]"
+            className="font-bold text-[24px] tracking-wider text-[#7c4fe0]"
           >
-            Eazi
-            <span className="text-[#6045c5]">Pay</span>
+            Rapid
+            <span className="text-[#7c4fe0]">Pay</span>
           </Link>
 
           <span onClick={() => setIsOpen((open) => !open)}>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              data-lucide="menu"
-              className="lucide lucide-menu h-8 w-8 text-black"
-            >
-              <line x1="4" x2="20" y1="12" y2="12"></line>
-              <line x1="4" x2="20" y1="6" y2="6"></line>
-              <line x1="4" x2="20" y1="18" y2="18"></line>
-            </svg>
+            {!isOpen ? (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                data-lucide="menu"
+                className="lucide lucide-menu h-8 w-8 text-black"
+              >
+                <line x1="4" x2="20" y1="12" y2="12"></line>
+                <line x1="4" x2="20" y1="6" y2="6"></line>
+                <line x1="4" x2="20" y1="18" y2="18"></line>
+              </svg>
+            ) : (
+              <FaTimes className="w-[20px] h-[24px] ext-black " />
+            )}
           </span>
         </div>
 
         {isOpen && (
           <nav className="mt-2 ml-6">
-            <ul className="py-2 space-y-3 text-[13px] font-medium text-stone-500">
-              <li className="hover:text-blue-500 transition duration-300 ease-in-out">
+            <ul className="py-2 space-y-4 text-[13px] font-medium text-stone-700">
+              <li className="hover:text-blue-500 text-[#7c4fe0] transition duration-300 ease-in-out">
                 <Link
                   to={'/'}
                   duration={100}
@@ -110,7 +115,7 @@ const Header = () => {
           to={'/'}
           className="font-bold text-[2vw] tracking-wider text-[#6045c5] ml:block hidden"
         >
-          Eazi<span className="text-white">Pay</span>
+          Rapid<span className="text-white">Pay</span>
         </Link>
 
         <nav className="ml:block hidden">
@@ -146,7 +151,7 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <button className="ml:flex bg-[#6045c5] rounded-[5px] hover:bg-[#684ad3] transition duration-300 ease-in-out text-white text-[15px] font-medium hidden justify-center items-center gap-2 py-[10px] w-[140px]">
+        <button className="ml:flex bg-[#7c4fe0] rounded-[5px] hover:bg-[#7b4edd] transition duration-300 ease-in-out text-white text-[15px] font-medium hidden justify-center items-center gap-2 py-[10px] w-[140px]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"

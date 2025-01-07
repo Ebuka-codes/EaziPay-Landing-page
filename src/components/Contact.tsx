@@ -55,7 +55,7 @@ const Contact = () => {
               {' '}
               <h5 className="text-base text-center text-muted font-medium mb-1">
                 {' '}
-                123 King Street, London W60 10250
+                123 King Street, victorial island lagos state
               </h5>
               <p className="text-xs text-center text-[#7c4fe0] font-bold uppercase mt-2">
                 See More
@@ -86,7 +86,7 @@ const Contact = () => {
               {' '}
               <h5 className="text-base text-center mt-3 text-muted font-medium mb-1">
                 {' '}
-                support@zoyothemes.com
+                support@rapidpay.com
               </h5>
               <p className="text-xs text-[#6045c5] mt-2 cursor-pointer text-center font-bold uppercase">
                 See Hello
@@ -189,7 +189,7 @@ const Contact = () => {
                   </label>
                   <input
                     type="email"
-                    placeholder="Your eemail..."
+                    placeholder="Your email..."
                     {...register('email', {
                       required: 'Email address is required',
                       pattern: {
@@ -255,9 +255,17 @@ const Contact = () => {
               <div className="mt-4">
                 <button
                   type="submit"
-                  className="py-2 px-6 rounded-md text-baseitems-center justify-center border border-[#7c4fe0] text-white bg-primary hover:bg-primaryDark transition-all duration-500 font-medium"
+                  className="py-2 px-6  flex items-center gap-2 rounded-md text-baseitems-center justify-center border border-[#7c4fe0] text-white bg-[#7c4fe0] hover:bg-primaryDark transition-all duration-500 font-medium"
                 >
-                  Send Messages <i className="mdi mdi-send ms-1"></i>
+                  Send Messages{' '}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="size-4"
+                  >
+                    <path d="M3.478 2.404a.75.75 0 0 0-.926.941l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94 60.519 60.519 0 0 0 18.445-8.986.75.75 0 0 0 0-1.218A60.517 60.517 0 0 0 3.478 2.404Z" />
+                  </svg>
                 </button>
               </div>
             </form>
@@ -298,7 +306,7 @@ const Contact = () => {
                 {' '}
                 <h5 className="text-base text-muted font-medium mb-1">
                   {' '}
-                  123 King Street, London W60 10250
+                  123 King Street, victorial island lagos state
                 </h5>
                 <a
                   href="/"
@@ -332,7 +340,7 @@ const Contact = () => {
                 {' '}
                 <h5 className="text-base text-muted font-medium mb-1">
                   {' '}
-                  support@zoyothemes.com
+                  support@rapidpay.com
                 </h5>
                 <a
                   href="/"
@@ -489,7 +497,7 @@ const Contact = () => {
                       htmlFor="message"
                       className="block text-sm font-semibold text-black mb-2"
                     >
-                      Message
+                      Messages
                     </label>
                     <textarea
                       placeholder="Type message..."
@@ -504,12 +512,20 @@ const Contact = () => {
                     </small>
                   </div>
                 </div>
-                <div className="mt-4">
+                <div className="mt-4 ">
                   <button
                     type="submit"
-                    className="py-2 px-6 rounded-md text-baseitems-center justify-center border border-[#7c4fe0] text-white bg-primary hover:bg-primaryDark transition-all duration-500 font-medium"
+                    className="py-2 flex items-center gap-2 px-6 rounded-md text-baseitems-center justify-center border border-[#7c4fe0] text-white bg-[#7c4fe0] hover:bg-primaryDark transition-all duration-500 font-medium"
                   >
-                    Send Messages <i className="mdi mdi-send ms-1"></i>
+                    Send Messages
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="size-4"
+                    >
+                      <path d="M3.478 2.404a.75.75 0 0 0-.926.941l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94 60.519 60.519 0 0 0 18.445-8.986.75.75 0 0 0 0-1.218A60.517 60.517 0 0 0 3.478 2.404Z" />
+                    </svg>
                   </button>
                 </div>
               </form>

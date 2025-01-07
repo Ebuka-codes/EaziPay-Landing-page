@@ -13,13 +13,13 @@ const Banner2 = () => {
           <div className="col-12 col-md-10 col-lg-9 relative">
             <div className="content text-center space-y-5">
               <h2 className="text-white text-[3rem] leading-[1.2] font-semibold">
-                easiPay is available for all devices
+                RapidPay is available for all devices
               </h2>
               <p className="text-white text-[1rem]">
-                Enjoy the versatility of sApp, designed to seamlessly function
-                on all devices. Whether you're using a smartphone, tablet, or
-                desktop, download the app now and experience its powerful
-                features anytime, anywhere!
+                Enjoy the versatility of RapisPay, designed to seamlessly
+                function on all devices. Whether you're using a smartphone,
+                tablet, or desktop, download the app now and experience its
+                powerful features anytime, anywhere!
               </p>
 
               <div className="button-group download-button justify-content-center">

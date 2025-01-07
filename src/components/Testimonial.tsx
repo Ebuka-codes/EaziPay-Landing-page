@@ -11,9 +11,11 @@ const Testimonial = () => {
         <span className="text-sm text-[#7c4fe0] uppercase font-semibold tracking-wider text-default-950">
           Our Client
         </span>
-        <h2 className="text-3xl md:text-4xl/tight font-semibold mt-3">
-          Stories From Our Customers
-        </h2>
+        <div className="text-center intro relative">
+          <h2 className="title text-[2rem] lg:text-[2.5rem] tracking-[1px]">
+            Stories From Our Customers
+          </h2>
+        </div>
       </div>
 
       <div className="grid md:grid-cols-2 grid-col-1  ml:grid-cols-3 mt-14 gap-x-10 gap-y-5 w-[85%] mx-auto">
@@ -39,9 +41,7 @@ const Testimonial = () => {
                 {' '}
                 Micheal Charles
               </h3>
-              <p className="text-sm font-medium mt-1">
-                Finance Manager at Mango
-              </p>
+              <p className="text-sm font-medium mt-1"></p>
             </div>
           </div>
         </div>
@@ -67,9 +67,7 @@ const Testimonial = () => {
                 {' '}
                 James John
               </h3>
-              <p className="text-sm font-medium mt-1">
-                Finance Manager at Mango
-              </p>
+              <p className="text-sm font-medium mt-1">Digital Marketer</p>
             </div>
           </div>
         </div>
@@ -92,12 +90,9 @@ const Testimonial = () => {
             </div>
             <div>
               <h3 className="text-lg font-semibold text-[#7c4fe0]">
-                {' '}
                 Mercy Blessing
               </h3>
-              <p className="text-sm font-medium mt-1">
-                Finance Manager at Mango
-              </p>
+              <p className="text-sm font-medium mt-1">Business Enterpreneur</p>
             </div>
           </div>
         </div>
@@ -105,5 +100,4 @@ const Testimonial = () => {
     </section>
   );
 };
-
 export default Testimonial;

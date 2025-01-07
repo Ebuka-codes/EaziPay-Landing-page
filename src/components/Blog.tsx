@@ -13,12 +13,19 @@ const Blog = () => {
 
   return (
     <section id="blog" className="mt-20" data-aos="fade-up">
-      <p className="text-sm text-center text-[#7c4fe0] uppercase font-semibold tracking-wider">
-        Blog
-      </p>
-      <h1 className="text-[28px] text-center mb-3 mt-3 font-semibold mx-auto w-[90%] sm:w-[70%] md:w-[60%] ml:w-[35%]">
-        Check the latest news about our company in our blog
-      </h1>
+      <div className="container">
+        <div className="max-w-2xl mx-auto text-center">
+          <p
+            className="text-sm text-[#7c4fe0] uppercase font-semibold tracking-wider
+          text-default-950"
+          >
+            Our Blog
+          </p>
+          <h1 className="text-3xl md:text-4xl/tight font-semibold text-black mt-2 text-center">
+            Check the latest news about our company in our blog
+          </h1>
+        </div>
+      </div>
 
       <div className="mt-14 grid grid-cols-1 lg:grid-cols-2 w-[90%] md:w-[75%] mx-auto gap-10 mb-20">
         <div className="bg-white shadow-sm rounded-md">

@@ -12,13 +12,13 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import { Toaster } from 'react-hot-toast';
 
-// git remote add origin https://github.com/Ebuka-codes/EaziPay-Landing-page.git
 const HomePage = () => {
   const targetRef = useRef<HTMLDivElement>(null);
-  const [showBtn, setShowBtn] = useState<boolean>(true);
+  const [showBtn, setShowBtn] = useState<boolean>(false);
   const handleScrollTarget = () => {
     if (targetRef.current) {
       targetRef.current.scrollIntoView({ behavior: 'smooth' });
+      setShowBtn(false);
     }
   };
   const handleWindowScroll = () => {

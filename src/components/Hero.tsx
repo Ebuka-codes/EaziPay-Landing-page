@@ -8,17 +8,17 @@ const Hero = () => {
     <section data-aos="fade-up">
       <div className="mx-auto">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-6 gap-y-10 items-center">
-          <div className="mt-[100px] ml:mt-[40px] container ml:ml-[50px]  lg:mb-40">
-            <h1 className="text-[27px] md:text-5xl/tight ml-1  lg:text-[4.17vw] text-white tracking-normal capitalize leading-normal font-bold max-w-2xl mt-4">
-              Bank Smarter, Live Better with eaziPay
-              <span className="text-[#7c4fe0] ml-1">Banking</span>
+          <div className="mt-[100px] ml:mt-[40px]  container ml:ml-[50px]  lg:mb-40">
+            <h1 className="text-3xl px-2  md:text-5xl/tight lg:text-6xl/tight text-white tracking-normal capitalize leading-normal font-bold max-w-2xl mt-4">
+              Bank Smarter, Live Better with RapidPay
+              <span className="text-[#7c4fe0]"> Banking</span>
             </h1>
-            <p className=" text-white font-medium max-w-lg mt-2 capitalize mb-10 tracking-[0.03vw] leading-6 text-sm">
+            <p className="text-base px-2 text-white font-normal max-w-lg mt-6 capitalize">
               Our app provides a multitude of features tailored to your needs.
               From personalized recommendations to exclusive offers.
             </p>
 
-            <span className="flex flex-wrap items-center mt-10 gap-3">
+            <span className="flex px-2 flex-wrap items-center mt-10 gap-3">
               <img
                 src="/image/google.png"
                 alt="app-store"

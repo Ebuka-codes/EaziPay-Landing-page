@@ -5,17 +5,23 @@ const Features = () => {
     Aos.init({ duration: 1400, once: true });
   });
   return (
-    <section id="feature" className="mt-20" data-aos="fade-up">
+    <section id="feature" className="mt-14" data-aos="fade-up">
       <div className="container">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-semibold text-black mt-4">
-            Explore Our Seamless Features
-          </h2>
-          <p className="text-[16px] mx-auto text-stone-500">
-            Bank smarter with features designed to simplify your financial
-            journey.
-          </p>
+        <div className="row justify-content-center">
+          <div className="col-12 col-md-10 col-lg-7">
+            <div className="text-center intro relative">
+              <h2 className="title text-[2rem] lg:text-[3rem] tracking-[1px]">
+                Explore Seamless Features
+              </h2>
+            </div>
+            <p className="text-[16px] w-[90%] text-center mx-auto text-stone-500">
+              Discover the unique features of sApp that set it apart from the
+              competition, designed to deliver unmatched performance and
+              seamless user experiences.
+            </p>
+          </div>
         </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mb-20 w-[85%] mx-auto mt-14 gap-10">
           <div>
             <div className="bg-[#f0ecff] bg-opacity-40 rounded-full w-[50px]  h-[50px] flex flex-col items-center justify-center mx-auto p-2">

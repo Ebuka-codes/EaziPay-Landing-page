@@ -5,12 +5,12 @@ const Banner = () => {
     <section className="bg-[#684ad3] w-full mt-5 py-[90px]">
       <span className="text-center text-white">
         <h1 className="ml:text-[3rem] text-[2.5rem] font-semibold">
-          How EasyPay works?
+          How RapidPay works?
         </h1>
         <p className="w-[80%] ml:w-[35%] mx-auto my-4">
-          Explore the intuitive and powerful features of EasyPay, making it easy
-          to build, customize, and launch effective landing pages in just a few
-          steps.
+          Explore the intuitive and powerful features of RapidPay, making it
+          easy to build, customize, and launch effective landing pages in just a
+          few steps.
         </p>
       </span>
       <div className="grid  ml:grid-cols-3 w-[80%] gap-10 mx-auto mt-20">
@@ -24,7 +24,7 @@ const Banner = () => {
             Install the App
           </h4>
           <p className="text-center my-3">
-            Explore the intuitive and powerful features of EasyPay, making it
+            Explore the intuitive and powerful features of RapidPay, making it
             easy to build, customize, and launch effective landing pages in just
             a few steps.
           </p>
